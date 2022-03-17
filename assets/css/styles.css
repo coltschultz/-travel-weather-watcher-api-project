@@ -1,0 +1,127 @@
+#fiveday {
+  border: 1px solid black;
+}
+
+.date {
+  font-size: medium;
+}
+
+#leftside {
+  width: 33%;
+}
+
+#today {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#fiveDayContainer {
+  padding: 10px;
+}
+
+.favorable {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+.moderate {
+  background-color: yellow;
+}
+
+.severe {
+  background-color: red;
+}
+
+.historyBtn {
+  border: 0;
+  color: black;
+  background-color: darkslateblue;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.historyBtn:hover {
+  border: 0;
+  color: black;
+  background-color: darkslategray;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: darkslategray;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  width: 95%;
+  color: white;
+}
+
+li:hover {
+  background-color: darkslateblue;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  width: 95%;
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom right, lightblue, blue);
+  padding: 10px;
+}
+
+#searchBtn {
+  background-color: darkslategray;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  width: 95%;
+  color: white;
+}
+
+#searchBtn:hover {
+  background-color: darkslateblue;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  width: 95%;
+  color: white;
+}
+
+#searchBar {
+  background-color: darkslateblue;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  width: 95%;
+  color: white;
+}
+
+form {
+  padding: 10px;
+}
+
+div {
+  background-color: darkslateblue;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
