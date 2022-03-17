@@ -58,7 +58,7 @@ var getData = function (city) {
             " – (" +
             date +
             ")</h2>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[0].weather[0].icon +
             '@2x.png">' +
             "<p>Temp: " +
@@ -89,7 +89,7 @@ var getData = function (city) {
             '<h4 class="date">' +
             date1 +
             "</h4>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[1].weather[0].icon +
             '.png">' +
             "<p>Temp: " +
@@ -107,7 +107,7 @@ var getData = function (city) {
             '<h4 class="date">' +
             date2 +
             "</h4>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[2].weather[0].icon +
             '.png">' +
             "<p>Temp: " +
@@ -125,7 +125,7 @@ var getData = function (city) {
             '<h4 class="date">' +
             date3 +
             "</h4>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[3].weather[0].icon +
             '.png">' +
             "<p>Temp: " +
@@ -143,7 +143,7 @@ var getData = function (city) {
             '<h4 class="date">' +
             date4 +
             "</h4>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[4].weather[0].icon +
             '.png">' +
             "<p>Temp: " +
@@ -161,7 +161,7 @@ var getData = function (city) {
             '<h4 class="date">' +
             date5 +
             "</h4>" +
-            '<img src="http://openweathermap.org/img/wn/' +
+            '<img src="https://openweathermap.org/img/wn/' +
             data.daily[5].weather[0].icon +
             '.png">' +
             "<p>Temp: " +
