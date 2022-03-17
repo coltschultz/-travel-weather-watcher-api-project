@@ -15,7 +15,7 @@ var iconCode;
 
 // Get the data for a particular city
 var getData = function (city) {
-  var baseUrl = "http://api.openweathermap.org/data/2.5/weather?";
+  var baseUrl = "https://api.openweathermap.org/data/2.5/weather?";
   var apiKey = "e9da07741ba3933502e8f95cfbb33359";
 
   var url = baseUrl + "q=" + city + "&appid=" + apiKey;
